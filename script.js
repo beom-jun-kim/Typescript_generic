@@ -41,3 +41,24 @@
 // const b = superPrint([true, false, true],1)
 // const c = superPrint(["a", "b", "c"],false)
 // const d = superPrint([1, 2, "a", "b", true, false],[])
+
+// type Player<Extra> = {
+//     name: string
+//     extraInfo: Extra
+// }
+
+// const nico: Player<{ favFood: string }> = {
+//     name: "nico",
+//     extraInfo: {
+//         favFood: "kimchi"
+//     }
+// }
+
+// const lynn: Player<null> = {
+//     name: "lynn",
+//     extraInfo: null
+// }
+
+// function pringAllNumbers(arr:Array<number>){
+
+// }
